@@ -1,0 +1,229 @@
+.header{
+  width: 100%;
+  height: 99px;
+  left: -2px;
+  top: 0px;
+
+  background: $color-black  ;
+  box-shadow: 0px 30px 60px rgba(34, 31, 32, 0.2);
+
+}
+.head{
+  &__logos{
+    position: absolute;
+    
+    left: 87px;
+    top: 8px;
+    font-family: "Libre Bodoni";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+
+    letter-spacing: 0.15em;
+
+    color: $color-white;
+  }
+
+  &__searchleft{
+    position: absolute;
+    width: 555px;
+    height: 47px;
+    left: 267px;
+    top: 20px;
+
+    background: #504B4A;
+    border-radius: 10px;
+  }
+
+  &__location{
+    position: absolute;
+    left: 274px;
+    
+    top: 32px;
+    
+    z-index: 2;
+
+  }  
+  &__text{
+    position: absolute;
+    width: 216px;
+   
+    left: 322px;
+    top: 17px;
+
+    font-family: 'Libre Bodoni';
+    font-style: normal;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #CFCFCF;
+    z-index: 2;
+  }
+  &__searchright{
+    position: absolute;
+    left: 781px;
+    
+    top: 31px;
+    bottom: 13.52%;
+    
+    z-index: 2;
+  }
+  &__calling{
+    position: relative;
+    left: 879px;
+    height: 29px;
+    top: 29px;
+    z-index: 3;
+
+  }
+  &__ellipse{
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    left: 873px;
+    top: 22px;
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+    border-radius: 10px;
+    z-index: 2;
+  }
+  
+  &__buttonellipse{
+    position: absolute;
+    width: 29px;
+    height: 30px;
+    left: 1409px;
+    top: 33px;
+
+    background: #FFFFFF;
+
+    border-radius: 50%;
+  }
+  &__buttonnomer{
+    position: absolute;
+    left: 1419px;
+    top: 29px;
+
+    font-family: "Libre Bodoni";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #403C3B;
+
+    background: #FFFFFF;
+  }
+  &__buttonline{
+    position: absolute;
+    width: 37px;
+    height: 3px;
+    left: 1372px;
+    top: 46px;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    -webkit-transform: rotate(90deg);
+
+    transform: rotate(90deg);
+  }
+}
+.nav{
+  &__lists{
+    position: absolute;
+    left: 924px;
+    top: 9px;
+
+    list-style: none;
+  }
+  &__list{
+    display: inline-block;
+
+    color: $color-black;
+    font-family: "Libre Bodoni";
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+  &__link{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    font-style: normal;
+
+    color: $color-white;
+    text-decoration: none;
+  }
+  &__basket{
+    position: absolute;
+    top: -3px;
+    left: 373px;
+
+    border: 1px solid $color-green;
+    border-radius: 10px;
+    width: 150px;
+    height: 52px;
+
+    background-color: $color-green;
+  }
+  &__basket_link{
+    position: absolute;
+    top: 14px;
+    left: 13px;
+  }
+}
+.banner{
+  
+  &__maket{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    
+  }
+  &__text{
+    position: absolute;
+    right: 843px;
+    top: 181px;
+
+    font-family: "Roboto Slab";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 1;
+    text-align: center;
+
+    color: #FFFFFF;
+    -webkit-transform: rotate(-8.37deg);
+    transform: rotate(-8.37deg);
+  }
+  &__button{
+    position: absolute;
+    left: 231px;
+    right: 1002px;
+    top: 433px;
+    bottom: 270px;
+
+    background: linear-gradient(114.93deg, #618967 20px, #72A479 20px);
+    -webkit-transform: rotate(351deg);
+  }
+  &__buttontext{
+    position: absolute;
+    left: 279px;
+    top: 415px;
+
+    font-family: "Roboto Slab";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 25px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+    -webkit-transform: rotate(-8.37deg);
+    transform: rotate(-8.37deg);
+
+  }
+}

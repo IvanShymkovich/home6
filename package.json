@@ -1,0 +1,17 @@
+{
+  "name": "cookproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "../home6/src/backend/server.js",
+  "scripts": {
+    "start": "node ./src/backend/server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.52.1"
+  },
+  "dependencies": {
+    "http-server": "^14.1.0"
+  }
+}

@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Libre+Bodoni:ital,wght@0,500;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Libre+Bodoni:ital,wght@0,500;1,400;1,500&family=Roboto+Slab:wght@100;200;300;400;600;800&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #ffff;
+}
+
+.banner {
+  position: absolute;
+  width: 1536px;
+  height: 753px;
+  left: 0;
+  top: 0;
+  margin-top: -19px;
+}
+
+.header {
+  width: 100%;
+  height: 99px;
+  left: -2px;
+  top: 0px;
+  background: #403C3B;
+  -webkit-box-shadow: 0px 30px 60px rgba(34, 31, 32, 0.2);
+          box-shadow: 0px 30px 60px rgba(34, 31, 32, 0.2);
+}
+
+.head__logos {
+  position: absolute;
+  left: 87px;
+  top: 8px;
+  font-family: "Libre Bodoni";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 25px;
+  letter-spacing: 0.15em;
+  color: #FFFFFF;
+}
+
+.head__searchleft {
+  position: absolute;
+  width: 555px;
+  height: 47px;
+  left: 267px;
+  top: 20px;
+  background: #504B4A;
+  border-radius: 10px;
+}
+
+.head__location {
+  position: absolute;
+  left: 274px;
+  top: 32px;
+  z-index: 2;
+}
+
+.head__text {
+  position: absolute;
+  width: 216px;
+  left: 322px;
+  top: 17px;
+  font-family: 'Libre Bodoni';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #CFCFCF;
+  z-index: 2;
+}
+
+.head__searchright {
+  position: absolute;
+  left: 781px;
+  top: 31px;
+  bottom: 13.52%;
+  z-index: 2;
+}
+
+.head__calling {
+  position: relative;
+  left: 879px;
+  height: 29px;
+  top: 29px;
+  z-index: 3;
+}
+
+.head__ellipse {
+  position: absolute;
+  width: 43px;
+  height: 43px;
+  left: 873px;
+  top: 22px;
+  background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.head__buttonellipse {
+  position: absolute;
+  width: 29px;
+  height: 30px;
+  left: 1409px;
+  top: 33px;
+  background: #FFFFFF;
+  border-radius: 50%;
+}
+
+.head__buttonnomer {
+  position: absolute;
+  left: 1419px;
+  top: 29px;
+  font-family: "Libre Bodoni";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #403C3B;
+  background: #FFFFFF;
+}
+
+.head__buttonline {
+  position: absolute;
+  width: 37px;
+  height: 3px;
+  left: 1372px;
+  top: 46px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.nav__lists {
+  position: absolute;
+  left: 924px;
+  top: 9px;
+  list-style: none;
+}
+
+.nav__list {
+  display: inline-block;
+  color: #403C3B;
+  font-family: "Libre Bodoni";
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.nav__link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  font-style: normal;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.nav__basket {
+  position: absolute;
+  top: -3px;
+  left: 373px;
+  border: 1px solid #618967;
+  border-radius: 10px;
+  width: 150px;
+  height: 52px;
+  background-color: #618967;
+}
+
+.nav__basket_link {
+  position: absolute;
+  top: 14px;
+  left: 13px;
+}
+
+.banner__maket {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.banner__text {
+  position: absolute;
+  right: 843px;
+  top: 181px;
+  font-family: "Roboto Slab";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1;
+  text-align: center;
+  color: #FFFFFF;
+  -webkit-transform: rotate(-8.37deg);
+  transform: rotate(-8.37deg);
+}
+
+.banner__button {
+  position: absolute;
+  left: 231px;
+  right: 1002px;
+  top: 433px;
+  bottom: 270px;
+  background: linear-gradient(114.93deg, #618967 20px, #72A479 20px);
+  -webkit-transform: rotate(351deg);
+}
+
+.banner__buttontext {
+  position: absolute;
+  left: 279px;
+  top: 415px;
+  font-family: "Roboto Slab";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  -webkit-transform: rotate(-8.37deg);
+  transform: rotate(-8.37deg);
+}
+/*# sourceMappingURL=style.css.map */
