@@ -225,4 +225,37 @@ html {
   -webkit-transform: rotate(-8.37deg);
   transform: rotate(-8.37deg);
 }
+
+.navigation__lists {
+  position: absolute;
+  width: 100%;
+  height: 67px;
+  left: 0px;
+  top: 600px;
+  padding: 15px;
+  background-color: #403C3B;
+}
+
+.navigation__list {
+  display: inline-block;
+  width: 1272px;
+  height: 21px;
+  left: 78px;
+  top: calc(50% - 21px/2 - 1251px);
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.navigation__link {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
 /*# sourceMappingURL=style.css.map */
