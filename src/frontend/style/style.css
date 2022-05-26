@@ -7,26 +7,16 @@
 
 body,
 html {
-  height: 100%;
   margin: 0;
   padding: 0;
   background-color: #ffff;
 }
 
-.banner {
-  position: absolute;
-  width: 1536px;
-  height: 753px;
-  left: 0;
-  top: 0;
-  margin-top: -19px;
-}
-
 .header {
   width: 100%;
-  height: 99px;
-  left: -2px;
-  top: 0px;
+  height: auto;
+  position: absolute;
+  top: 0;
   background: #403C3B;
   -webkit-box-shadow: 0px 30px 60px rgba(34, 31, 32, 0.2);
           box-shadow: 0px 30px 60px rgba(34, 31, 32, 0.2);
@@ -96,7 +86,7 @@ html {
   position: absolute;
   width: 29px;
   height: 30px;
-  left: 1409px;
+  left: 1324px;
   top: 33px;
   background: #FFFFFF;
   border-radius: 50%;
@@ -105,7 +95,7 @@ html {
 
 .head__buttonnomer {
   position: absolute;
-  left: 1419px;
+  left: 1335px;
   top: 29px;
   font-family: "Libre Bodoni";
   font-style: normal;
@@ -121,7 +111,7 @@ html {
   position: absolute;
   width: 37px;
   height: 3px;
-  left: 1372px;
+  left: 1293px;
   top: 46px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   -webkit-transform: rotate(90deg);
@@ -167,7 +157,7 @@ html {
 .nav__basket {
   position: absolute;
   top: -3px;
-  left: 373px;
+  left: 292px;
   border: 1px solid #618967;
   border-radius: 10px;
   width: 150px;
@@ -183,6 +173,19 @@ html {
   z-index: 3;
 }
 
+.banner {
+  position: relative;
+  width: 100%;
+  height: 518px;
+  left: 0;
+  top: 0;
+  margin-top: 66px;
+  background-image: url(../img/menu2.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 100%;
+}
+
 .banner__maket {
   position: absolute;
   width: 100%;
@@ -193,8 +196,8 @@ html {
 
 .banner__text {
   position: absolute;
-  right: 843px;
-  top: 181px;
+  right: 848px;
+  top: 9px;
   font-family: "Roboto Slab";
   font-style: italic;
   font-weight: 400;
@@ -208,18 +211,18 @@ html {
 
 .banner__button {
   position: absolute;
-  left: 231px;
-  right: 1002px;
-  top: 433px;
-  bottom: 270px;
-  background: linear-gradient(114.93deg, #618967 20px, #72A479 20px);
-  -webkit-transform: rotate(351deg);
+  left: 244px;
+  right: 990px;
+  top: 297px;
+  padding-bottom: 41px;
+  background: linear-gradient(117deg, #618967 20px, #72A479 20px);
+  -webkit-transform: rotate(352deg);
 }
 
 .banner__buttontext {
   position: absolute;
   left: 279px;
-  top: 415px;
+  top: 275px;
   font-family: "Roboto Slab";
   font-style: italic;
   font-weight: 400;
@@ -255,7 +258,7 @@ html {
   color: #FFFFFF;
   text-decoration: none;
   font-weight: 400;
-  margin: 33px;
+  margin: 25px;
   -webkit-transition: .3s;
   transition: .3s;
   cursor: pointer;
