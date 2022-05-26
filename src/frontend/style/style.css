@@ -51,28 +51,17 @@ html {
   height: 47px;
   left: 267px;
   top: 20px;
-  background: #504B4A;
+  padding-left: 50px;
+  background: #403C3B;
   border-radius: 10px;
+  color: #FFFFFF;
+  z-index: 2;
 }
 
 .head__location {
   position: absolute;
   left: 274px;
   top: 32px;
-  z-index: 2;
-}
-
-.head__text {
-  position: absolute;
-  width: 216px;
-  left: 322px;
-  top: 17px;
-  font-family: 'Libre Bodoni';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  color: #CFCFCF;
   z-index: 2;
 }
 
@@ -157,9 +146,15 @@ html {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
+  font-family: 'Roboto Slab';
   font-style: normal;
   color: #FFFFFF;
   text-decoration: none;
+}
+
+.nav__contacts {
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav__basket {
@@ -237,15 +232,12 @@ html {
 }
 
 .navigation__list {
-  display: inline-block;
-  width: 1272px;
-  height: 21px;
-  left: 78px;
+  display: inline;
   top: calc(50% - 21px/2 - 1251px);
   font-family: "Roboto Slab";
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 100%;
   line-height: 21px;
   color: #FFFFFF;
 }
@@ -254,8 +246,22 @@ html {
   color: #FFFFFF;
   text-decoration: none;
   font-weight: 400;
-  font-size: 15px;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  margin: 33px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.navigation__link:hover {
+  outline: #618967;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 27px;
+  margin-left: 35px;
+  outline: #618967;
+  padding-bottom: 30px;
+  border-bottom: 4px solid;
+  border-color: #618967;
 }
 /*# sourceMappingURL=style.css.map */
