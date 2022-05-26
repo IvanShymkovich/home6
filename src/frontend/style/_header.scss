@@ -88,6 +88,7 @@
     background: #FFFFFF;
 
     border-radius: 50%;
+    z-index: 3;
   }
   &__buttonnomer{
     position: absolute;
@@ -103,6 +104,8 @@
     color: #403C3B;
 
     background: #FFFFFF;
+
+    z-index: 3;
   }
   &__buttonline{
     position: absolute;
@@ -115,6 +118,7 @@
     -webkit-transform: rotate(90deg);
 
     transform: rotate(90deg);
+    z-index: 3;
   }
 }
 .nav{
@@ -124,6 +128,7 @@
     top: 9px;
 
     list-style: none;
+    z-index: 3;
   }
   &__list{
     display: inline-block;
@@ -133,6 +138,7 @@
     font-size: 12px;
     line-height: 20px;
     font-weight: 400;
+    z-index: 3;
   }
   &__link{
     font-weight: 700;
@@ -144,10 +150,12 @@
 
     color: $color-white;
     text-decoration: none;
+    z-index: 3;
   }
   &__contacts{
     color: $color-white;
     font-family: Arial, Helvetica, sans-serif;
+    z-index: 3;
   }
   &__basket{
     position: absolute;
@@ -160,11 +168,13 @@
     height: 52px;
 
     background-color: $color-green;
+    z-index: 3;
   }
   &__basket_link{
     position: absolute;
     top: 14px;
     left: 13px;
+    z-index: 3;
   }
 }
 .banner{
